@@ -68,6 +68,11 @@ const router = createRouter({
       name: "slotChild",
       component: () => import("../views/SlotChideView.vue"),
     },
+    {
+      path: "/composable",
+      name: "composable",
+      component: () => import("../views/ComposableView.vue"),
+    },
   ],
 });
 

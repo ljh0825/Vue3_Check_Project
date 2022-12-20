@@ -29,6 +29,7 @@ import HelloWorld from "./components/HelloWorld.vue";
         <RouterLink to="/watch">Watch</RouterLink>
         <RouterLink to="/parent">Parent</RouterLink>
         <RouterLink to="/slotChild">SlotChild</RouterLink>
+        <RouterLink to="/composable">Composable</RouterLink>
       </nav>
     </div>
   </header>
